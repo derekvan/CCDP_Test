@@ -3,3 +3,30 @@ markdown: kramdown
 baseurl: /CCDP_Test
 prose:
   rooturl: '_posts'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Books"
+              value: "books"
+            - name: "Articles"
+              value: "articles"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
