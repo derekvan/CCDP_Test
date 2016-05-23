@@ -1,0 +1,25 @@
+---
+layout: post
+published: false
+tags: 
+  - articles
+---
+# Header 1
+
+My new post
+
+# An image?
+
+![Screen Shot 2016-05-22 at 6.49.02 PM.png]({{site.baseurl}}/media/Screen Shot 2016-05-22 at 6.49.02 PM.png)
+
+# A list?
+
+- some text
+- more text
+- and more
+
+- and more
+- and more 
+- and more
+
+
