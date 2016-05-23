@@ -1,3 +1,4 @@
 name: Computers & Composition Digital Press
 markdown: kramdown
 baseurl: /CCDP_Test
+rooturl: "_posts"
